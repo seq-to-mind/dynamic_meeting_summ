@@ -1,5 +1,5 @@
 ## Introduction
-One implementation of the paper "Dynamic Sliding Window for Meeting Summarization".
+One implementation of the paper "Dynamic Sliding Window for Meeting Summarization" / "Dynamic Sliding Window Modeling for Abstractive Meeting Summarization" (Interspeech 2022).
 
 ## Package Requirements
 1. pytorch==1.7.1
@@ -28,6 +28,14 @@ The segmented samples are used for training, and the dialogue level samples can 
   For evaluation for meeting level summarization, using the file `train.all.utter.source` (meeting level dialogue content) and `train.doc_level_longabs` (reference summary);  
   
 ## Citation
+```
+@inproceedings{Liu2022DynamicSW,
+  title={Dynamic Sliding Window Modeling for Abstractive Meeting Summarization},
+  author={Zhengyuan Liu and Nancy F. Chen},
+  booktitle={Interspeech},
+  year={2022},
+}
+```
 ```
 @article{liu2021dynamic,
   title={Dynamic Sliding Window for Meeting Summarization},
